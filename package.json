@@ -1,7 +1,7 @@
 {
   "name": "node-ml-demo",
   "version": "1.0.0",
-  "description": "tensorflow with node test app",
+  "description": "machine learning with node test app",
   "main": "index.js",
   "scripts": {
     "dev": "pm2  start server/index.js --no-daemon --watch",
@@ -21,11 +21,10 @@
   ],
   "author": "Agustin Valeriani",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/avaleriani/node-tensorflow-demo/issues"
+  "dependencies": {
+    "mnist": "^1.0.5",
+    "synaptic": "^1.0.12"
   },
-  "homepage": "https://github.com/avaleriani/node-tensorflow-demo#readme",
-  "dependencies": {},
   "devDependencies": {
     "express": "^4.15.3"
   }
