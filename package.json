@@ -1,0 +1,32 @@
+{
+  "name": "node-ml-demo",
+  "version": "1.0.0",
+  "description": "tensorflow with node test app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pm2  start server/index.js --no-daemon --watch",
+    "kill": "pm2 stop all  | taskkill /F /im node.exe",
+    "full": "npm run kill | npm run dev | npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avaleriani/node-ml-demo.git"
+  },
+  "keywords": [
+    "tensorflow",
+    "node",
+    "js",
+    "javascript"
+  ],
+  "author": "Agustin Valeriani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avaleriani/node-tensorflow-demo/issues"
+  },
+  "homepage": "https://github.com/avaleriani/node-tensorflow-demo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
