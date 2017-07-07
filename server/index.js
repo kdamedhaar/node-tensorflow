@@ -1,5 +1,5 @@
 const synaptic = require('synaptic');
-const mnist = require('mn§ist');
+const mnist = require('mnist');
 const Neuron = synaptic.Neuron,
   Layer = synaptic.Layer,
   Network = synaptic.Network,
