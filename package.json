@@ -26,6 +26,6 @@
     "synaptic": "^1.0.12"
   },
   "devDependencies": {
-    "express": "^4.15.3"
+    "express": "^4.17.3"
   }
 }
